@@ -48,7 +48,7 @@ sudo apt-get install webp
   - JPG/JPEG → WebP
 - Optional recursive directory scanning
 - Optional deletion of original files after conversion
-- Quality setting of 80% (can be modified in the script)
+- Quality setting of 100% (can be modified in the script)
 - Progress feedback during conversion
 - Error handling for failed conversions
 

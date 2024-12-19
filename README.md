@@ -18,7 +18,7 @@ sudo apt-get install webp
 ## Usage
 
 ```bash
-./convert_webp.sh [-r] [-d] <path>
+./webp_convert.sh [-r] [-d] <path>
 ```
 
 ### Options
@@ -31,13 +31,13 @@ sudo apt-get install webp
 
 ```bash
 # Convert all images in the current directory
-./convert_webp.sh ./
+./webp_convert.sh ./
 
 # Convert all images recursively and delete originals
-./convert_webp.sh -r -d ./public/images/
+./webp_convert.sh -r -d ./public/images/
 
 # Convert all images in a specific directory
-./convert_webp.sh ./images
+./webp_convert.sh ./images
 ```
 
 ## Features
